@@ -1,0 +1,72 @@
+﻿@model NetFlix.CORE.ViewModels.CreateActorVm
+
+@{
+    ViewData["Title"] = "Create Actor - HotFlix";
+}
+<div class="container" >
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__content d-flex">
+                        <a href="/" class="header__logo">
+                            <img src="/img/logo.svg" alt="HotFlix Logo">
+                        </a>
+                        <nav class="header__nav">
+                            <a href="/Movies">Movies</a>
+                            <a href="/Actors">Actors</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- section -->
+    <section class="section section--bg" data-bg="/img/bg/section__bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h1 class="section__title">Create Actor</h1>
+                    <form asp-action="Create" enctype="multipart/form-data" class="sign__form">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="sign__group mb-3">
+                            <label asp-for="FullName" class="sign__label"></label>
+                            <input asp-for="FullName" class="sign__input" placeholder="Full Name" />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="sign__group mb-3">
+                            <label asp-for="BirthDate" class="sign__label"></label>
+                            <input asp-for="BirthDate" class="sign__input" type="date" />
+                            <span asp-validation-for="BirthDate" class="text-danger"></span>
+                        </div>
+                        <div class="sign__group mb-3">
+                            <label asp-for="BirthPlace" class="sign__label"></label>
+                            <input asp-for="BirthPlace" class="sign__input" placeholder="Birth Place" />
+                            <span asp-validation-for="BirthPlace" class="text-danger"></span>
+                        </div>
+                        <div class="sign__group mb-3">
+                            <label asp-for="PhotoFile" class="sign__label">Photo</label>
+                            <input asp-for="PhotoFile" class="sign__input" type="file" accept="image/*" />
+                            <span asp-validation-for="PhotoFile" class="text-danger"></span>
+                        </div>
+                        <div class="sign__group mb-3">
+                            <label asp-for="MovieIds" class="sign__label">Movies</label>
+                            <select asp-for="MovieIds" class="sign__select" multiple asp-items="@(new MultiSelectList(ViewBag.Movies, "Id", "Title"))"></select>
+                            <span asp-validation-for="MovieIds" class="text-danger"></span>
+                        </div>
+                        <div class="sign__group">
+                            <button type="submit" class="sign__btn btn btn--primary">Create</button>
+                            <a asp-action="Index" class="btn btn--secondary">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- header -->
+

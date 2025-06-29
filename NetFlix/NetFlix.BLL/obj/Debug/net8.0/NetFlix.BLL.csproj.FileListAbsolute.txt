@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.BLL.deps.json
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.BLL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.BLL.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\refint\NetFlix.BLL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\ref\NetFlix.BLL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.CORE.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.DAL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.CORE.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.DAL.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix..46C70BEF.Up2Date

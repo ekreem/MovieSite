@@ -1,0 +1,62 @@
+﻿@model NetFlix.CORE.ViewModels.GetActorVm
+
+@{
+    ViewData["Title"] = $"{Model.FullName} - HotFlix";
+}
+
+<div class="container">
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__content d-flex">
+                        <a href="/" class="header__logo">
+                            <img src="/img/logo.svg" alt="HotFlix Logo">
+                        </a>
+                        <nav class="header__nav">
+                            <a href="/Movies">Movies</a>
+                            <a href="/Actors">Actors</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- section -->
+    <section class="section section--bg" data-bg="/img/bg/section__bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <h1 class="section__title">@Model.FullName</h1>
+                    <div class="card card--details">
+                        @if (!string.IsNullOrEmpty(Model.PhotoFileName))
+                        {
+                            <img src="@Model.PhotoFileName" alt="@Model.FullName" class="card__img" />
+                        }
+                        else
+                        {
+                            <img src="/img/default-actor.jpg" alt="No Photo" class="card__img" />
+                        }
+                        <div class="card__content">
+                            <p><strong>Full Name:</strong> @Model.FullName</p>
+                            <p><strong>Birth Date:</strong> @Model.BirthDate.ToString("dd/MM/yyyy")</p>
+                            <p><strong>Age:</strong> @Model.Age</p>
+                            <p><strong>Birth Place:</strong> @Model.BirthPlace</p>
+                            <p><strong>Movies:</strong> @string.Join(", ", Model.Movies.Select(m => m.Title))</p>
+                            <div class="card__actions">
+                                <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn--warning">Edit</a>
+                                <a href="@Url.Action("Delete", new { id = Model.Id })" class="btn btn--danger">Delete</a>
+                                <a href="@Url.Action("Index")" class="btn btn--secondary">Back to List</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+
+<!-- header -->

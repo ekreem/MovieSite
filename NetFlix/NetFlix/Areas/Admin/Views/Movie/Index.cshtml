@@ -1,0 +1,32 @@
+﻿@model List<NetFlix.CORE.ViewModels.GetMovieVm>
+
+    <div class="container">
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">All Movies</h2>
+                <div class="row">
+                    @foreach (var movie in Model)
+                    {
+                        <div class="col-6 col-md-4 col-lg-3 mb-4">
+                            <div class="card">
+                                <a href="@Url.Action("Details", "Movie", new { id = movie.Id })">
+                                    <img src="@movie.PosterFileName" class="card-img-top" alt="@movie.Title">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">@movie.Title (@movie.Year)</h5>
+                                    <p class="card-text">@movie.Category</p>
+                                    <p class="card-text"><i class="fas fa-star"></i> @movie.ImdbRating</p>
+                                    <a href="@Url.Action("Details", "Movie", new { id = movie.Id })" class="btn btn-primary">Details</a>
+                                <a asp-route-id="@movie.Id" asp-controller="Movie" asp-action="Edit" class="btn btn-secondary">Edit</a>
+                                    <a href="@Url.Action("Delete", "Movie", new { id = movie.Id })" class="btn btn-danger">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <a href="@Url.Action("Create", "Movie")" class="btn btn-success mt-4">Add New Movie</a>
+            </div>
+        </section>
+
+    </div>
+

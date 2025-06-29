@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\bin\Debug\net8.0\NetFlix.DAL.deps.json
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\bin\Debug\net8.0\NetFlix.DAL.runtimeconfig.json
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\bin\Debug\net8.0\NetFlix.DAL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\bin\Debug\net8.0\NetFlix.DAL.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\bin\Debug\net8.0\NetFlix.CORE.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\bin\Debug\net8.0\NetFlix.CORE.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix..722E0371.Up2Date
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\refint\NetFlix.DAL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\ref\NetFlix.DAL.dll
