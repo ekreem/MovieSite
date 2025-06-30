@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetFlix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d49e90bcf5239314eadf41280fed67e77f62001")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetFlix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetFlix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

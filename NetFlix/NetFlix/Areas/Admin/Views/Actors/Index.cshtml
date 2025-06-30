@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="section__title">Actors</h1>
+                    <h1 style="color:white;" class="section__title">Actors</h1>
                     <a asp-action="Create" class="btn btn-primary">Add New Actor</a>
                 </div>
             </div>
@@ -54,7 +54,10 @@
                                 <div class="card__actions">
                                     <a href="@Url.Action("Details", new { id = actor.Id })" class="btn btn--sm btn--info">Details</a>
                                     <a asp-route-id="@actor.Id" asp-controller="Actors" asp-action="Edit"  class="btn btn--sm btn--warning">Edit</a>
-                                    <a href="@Url.Action("Delete", new { id = actor.Id })" class="btn btn--sm btn--danger">Delete</a>
+                                    <form method="post">
+
+                                    <a asp-route-id="@actor.Id" asp-controller="Actors" asp-action="Delete" class="btn btn--sm btn--danger">Delete</a>
+                                    </form>
                                 </div>
                             </div>
                         </div>

@@ -122,7 +122,7 @@ namespace NetFlix.Presentation.Areas.Admin.Controllers
             var actor = await _actorService.GetActorByIdAsync(id);
             if (actor == null)
                 return NotFound();
-            return View(actor);
+            return RedirectToAction("Index","Actors");
         }
 
         // POST: /Admin/Actors/Delete/5

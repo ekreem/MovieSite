@@ -1,13 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NetFlix.BLL.Services.Abstracts;
+using System.Threading.Tasks;
 
 namespace NetFlix.Controllers
 {
     public class HomeController : Controller
     {
-        
-        public IActionResult Index()
+        private readonly IMovieService movieService;
+
+        public HomeController(IMovieService movieService)
         {
-            return View();
+            this.movieService = movieService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var filmler = await movieService.GetAllMoviesAsync();
+            return View(filmler);
         }
     }
 }

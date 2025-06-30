@@ -269,3 +269,4 @@ C:\Users\ASUS\Desktop\project\NetFlix\NetFlix\obj\Debug\net8.0\NetFlix.RazorAsse
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix\obj\Debug\net8.0\NetFlix.RazorAssemblyInfo.cs
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix\bin\Debug\net8.0\NetFlix.BLL.dll
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix\bin\Debug\net8.0\NetFlix.BLL.pdb
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix\obj\Debug\net8.0\NetFlix.sourcelink.json

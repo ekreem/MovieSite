@@ -67,8 +67,15 @@ wwwroot\js\plyr.min.js
 wwwroot\js\slimselect.min.js
 wwwroot\js\smooth-scrollbar.js
 wwwroot\js\splide.min.js
+wwwroot\Upload\0aafe95e-e353-4c92-b469-6fc29f80f198.png
+wwwroot\Upload\1e62ae3f-c50b-4a95-9967-314d01d71548.jpg
 wwwroot\Upload\45086ca6-8677-4a0c-acb9-b722482a2c65.png
+wwwroot\Upload\5b56d651-a5ce-4302-8961-0ae8f98f0776.avif
+wwwroot\Upload\6398861f-1f9c-4164-a649-3302ccae748c.jpg
 wwwroot\Upload\6509baff-80ca-43e6-87ab-e3e0fb3780f8.png
+wwwroot\Upload\ab4db561-5c30-4f1c-b51a-819f0c63488e.jpg
+wwwroot\Upload\aefee58c-07f7-456b-b7c9-0db3024b3255.jpg
+wwwroot\Upload\b82a9f43-b275-4044-892d-e63841fca977.jpg
 wwwroot\Upload\c67d3280-9b23-4709-b246-52379f8c2afc.png
 wwwroot\Upload\d5d27ba5-8e77-4ea0-9229-cffb1427dc24.png
 wwwroot\webfont\fonts\tabler-icons.eot@

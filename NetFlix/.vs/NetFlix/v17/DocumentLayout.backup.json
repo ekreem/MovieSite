@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.core\\viewmodels\\getmovievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|solutionrelative:netflix.core\\viewmodels\\getmovievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.bll\\services\\concretes\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|solutionrelative:netflix.bll\\services\\concretes\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.bll\\services\\abstracts\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|solutionrelative:netflix.bll\\services\\abstracts\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\areas\\admin\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\areas\\admin\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\areas\\admin\\views\\actors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|solutionrelative:netflix.core\\viewmodels\\createmovievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.bll\\services\\concretes\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|solutionrelative:netflix.bll\\services\\concretes\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\views\\actors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\areas\\admin\\views\\actors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -57,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D34464F6-5D8A-44D7-AAF5-E26DC5F0D85B}|NetFlix.DAL\\NetFlix.DAL.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.dal\\repositories\\concretes\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D34464F6-5D8A-44D7-AAF5-E26DC5F0D85B}|NetFlix.DAL\\NetFlix.DAL.csproj|solutionrelative:netflix.dal\\repositories\\concretes\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.bll\\services\\abstracts\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|solutionrelative:netflix.bll\\services\\abstracts\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.core\\entities\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.bll\\services\\abstracts\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|solutionrelative:netflix.bll\\services\\abstracts\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -155,16 +155,8 @@
       "RelativeMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|solutionrelative:netflix.core\\viewmodels\\updatemovievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.core\\viewmodels\\getmovievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|solutionrelative:netflix.core\\viewmodels\\getmovievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.bll\\netflix.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{72C58627-02A9-410C-B75A-1CB67B5F77D4}|NetFlix.BLL\\NetFlix.BLL.csproj|solutionrelative:netflix.bll\\netflix.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D145E684-9B90-4599-AEF4-AABA49A157A6}|NetFlix\\NetFlix.csproj|solutionrelative:netflix\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{307B85B5-FA92-4644-BBEC-BDE769D9F725}|NetFlix.CORE\\NetFlix.CORE.csproj|c:\\users\\asus\\desktop\\project\\netflix\\netflix.core\\netflix.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -205,110 +197,24 @@
           "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAswEcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T20:56:47.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateMovieVm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
-              "RelativeDocumentMoniker": "NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
-              "RelativeToolTip": "NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T00:47:31.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T21:16:12.684Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T21:09:33.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Actors\\Index.cshtml",
-              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Actors\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Actors\\Index.cshtml",
-              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Actors\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T00:57:50.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T21:17:42.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "ActorService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Concretes\\ActorService.cs",
               "RelativeDocumentMoniker": "NetFlix.BLL\\Services\\Concretes\\ActorService.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Concretes\\ActorService.cs",
               "RelativeToolTip": "NetFlix.BLL\\Services\\Concretes\\ActorService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwCwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T00:27:57.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T00:27:57.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ActorsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
-              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
-              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwDMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T00:57:20.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\Entities\\Movie.cs",
               "RelativeDocumentMoniker": "NetFlix.CORE\\Entities\\Movie.cs",
@@ -320,7 +226,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T22:51:17.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetMovieVm.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
+              "RelativeDocumentMoniker": "NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
+              "RelativeToolTip": "NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:30:58.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T21:17:42.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T21:16:12.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NetFlix\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NetFlix\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:29:28.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActorsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
+              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
+              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Controllers\\ActorsController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAkwIYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:57:20.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateMovieVm.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
+              "RelativeDocumentMoniker": "NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
+              "RelativeToolTip": "NetFlix.CORE\\ViewModels\\CreateMovieVm.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:47:31.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Concretes\\MovieService.cs",
               "RelativeDocumentMoniker": "NetFlix.BLL\\Services\\Concretes\\MovieService.cs",
@@ -328,12 +319,11 @@
               "RelativeToolTip": "NetFlix.BLL\\Services\\Concretes\\MovieService.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwDgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T00:28:50.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T00:28:50.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Actors\\Edit.cshtml",
               "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Actors\\Edit.cshtml",
@@ -345,7 +335,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "IActorService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
+              "RelativeDocumentMoniker": "NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
+              "RelativeToolTip": "NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:27:14.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswEcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T20:56:47.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Actors\\Details.cshtml",
               "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Actors\\Details.cshtml",
@@ -357,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Actors\\Create.cshtml",
               "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Actors\\Create.cshtml",
@@ -369,19 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IActorService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
-              "RelativeDocumentMoniker": "NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
-              "RelativeToolTip": "NetFlix.BLL\\Services\\Abstracts\\IActorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T00:27:14.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CreateActorVm.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\CreateActorVm.cs",
               "RelativeDocumentMoniker": "NetFlix.CORE\\ViewModels\\CreateActorVm.cs",
@@ -393,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Actor.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\Entities\\Actor.cs",
               "RelativeDocumentMoniker": "NetFlix.CORE\\Entities\\Actor.cs",
@@ -405,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.DAL\\Repositories\\Concretes\\MovieRepository.cs",
               "RelativeDocumentMoniker": "NetFlix.DAL\\Repositories\\Concretes\\MovieRepository.cs",
@@ -417,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Concretes\\AccountService.cs",
               "RelativeDocumentMoniker": "NetFlix.BLL\\Services\\Concretes\\AccountService.cs",
@@ -429,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IMovieService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\Services\\Abstracts\\IMovieService.cs",
               "RelativeDocumentMoniker": "NetFlix.BLL\\Services\\Abstracts\\IMovieService.cs",
@@ -441,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 43,
               "Title": "20250629002156_nulladim.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.DAL\\Migrations\\20250629002156_nulladim.cs",
               "RelativeDocumentMoniker": "NetFlix.DAL\\Migrations\\20250629002156_nulladim.cs",
@@ -453,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "GetActorVm.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\GetActorVm.cs",
               "RelativeDocumentMoniker": "NetFlix.CORE\\ViewModels\\GetActorVm.cs",
@@ -462,18 +464,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T22:41:47.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "NetFlix\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwHoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T22:51:17.734Z"
             },
             {
               "$type": "Document",
@@ -513,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 44,
               "Title": "20250628222215_qaqash1.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.DAL\\Migrations\\20250628222215_qaqash1.cs",
               "RelativeDocumentMoniker": "NetFlix.DAL\\Migrations\\20250628222215_qaqash1.cs",
@@ -537,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 45,
               "Title": "20250628222451_qaqash2.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.DAL\\Migrations\\20250628222451_qaqash2.cs",
               "RelativeDocumentMoniker": "NetFlix.DAL\\Migrations\\20250628222451_qaqash2.cs",
@@ -705,19 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "NetFlix\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "NetFlix\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T23:29:28.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "NetFlix.BLL.csproj",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.BLL\\NetFlix.BLL.csproj",
               "RelativeDocumentMoniker": "NetFlix.BLL\\NetFlix.BLL.csproj",
@@ -729,19 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "GetMovieVm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
-              "RelativeDocumentMoniker": "NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
-              "RelativeToolTip": "NetFlix.CORE\\ViewModels\\GetMovieVm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T02:30:58.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "NetFlix.CORE.csproj",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\NetFlix.CORE.csproj",
               "RelativeDocumentMoniker": "NetFlix.CORE\\NetFlix.CORE.csproj",
@@ -753,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "NetFlix.csproj",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix\\NetFlix.csproj",
               "RelativeDocumentMoniker": "NetFlix\\NetFlix.csproj",
@@ -765,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 41,
               "Title": "UpdateActorVm.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\ViewModels\\UpdateActorVm.cs",
               "RelativeDocumentMoniker": "NetFlix.CORE\\ViewModels\\UpdateActorVm.cs",
@@ -777,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 42,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\project\\NetFlix\\NetFlix.CORE\\Entities\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "NetFlix.CORE\\Entities\\Base\\BaseEntity.cs",
