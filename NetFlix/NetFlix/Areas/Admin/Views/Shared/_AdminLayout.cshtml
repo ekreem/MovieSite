@@ -27,16 +27,12 @@
 	<header class="header">
 		<div class="header__content">
 			<!-- header logo -->
-			<a href="index.html" class="header__logo">
+			<a asp-area="Default" asp-controller="Home" asp-action="Index" class="header__logo">
 				<img src="~/Admin/img/logo.svg" alt="">
 			</a>
 			<!-- end header logo -->
 			<!-- header menu btn -->
-			<button class="header__btn" type="button">
-				<span></span>
-				<span></span>
-				<span></span>
-			</button>
+			
 			<!-- end header menu btn -->
 		</div>
 	</header>
@@ -44,7 +40,7 @@
 	<div style="display: flex; justify-content:center;">
 		<div style=" margin:left;" class="sidebar">
 			<!-- sidebar logo -->
-			<a href="index.html" class="sidebar__logo">
+			<a asp-area="Default" asp-controller="Home" asp-action="Index" class="sidebar__logo">
 				<img src="~/Admin/img/logo.svg" alt="">
 			</a>
 			<!-- end sidebar logo -->
@@ -66,7 +62,7 @@
 					</li>
 
 					<li class="sidebar__nav-item">
-						<a href="users.html" class="sidebar__nav-link"> <span>Users</span></a>
+						<a asp-controller="User" asp-action="Index" class="sidebar__nav-link"> <span>Users</span></a>
 					</li>
 				</ul>
 			</div>

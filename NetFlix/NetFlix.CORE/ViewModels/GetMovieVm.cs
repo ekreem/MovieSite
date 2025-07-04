@@ -29,6 +29,7 @@ namespace NetFlix.CORE.ViewModels
             public string PosterFileName { get; set; } = string.Empty;  // GUID ile dosya adı tutulacak
 
             public string TrailerUrl { get; set; } = string.Empty; // Fragman linki
+        public int TmdbId { get; set; }
 
             public string Quality { get; set; } = string.Empty; // 1080p, 4K, vb.
         }

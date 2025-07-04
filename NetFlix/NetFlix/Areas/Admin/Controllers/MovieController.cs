@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NetFlix.BLL.Services.Abstracts;
 using NetFlix.CORE.ViewModels;
 using System.Threading.Tasks;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 namespace NetFlix.Web.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class MovieController : Controller
     {
         private readonly IMovieService _movieService;
@@ -22,16 +24,7 @@ namespace NetFlix.Web.Controllers
             return View(movies);
         }
 
-        // GET: /Movie/Details/5
-        public async Task<IActionResult> Details(int id)
-        {
-            var movie = await _movieService.GetMovieByIdAsync(id);
-            if (movie == null)
-            {
-                return NotFound();
-            }
-            return View(movie);
-        }
+       
 
         // GET: /Movie/Create
         [HttpGet]

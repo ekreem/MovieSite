@@ -15,6 +15,7 @@ namespace NetFlix.CORE.ViewModels
         public string Description { get; set; }
         public string Director { get; set; }
         public List<int>? ActorsIds { get; set; }
+        public int? TmdbId { get; set; }
         public int Year { get; set; }
         public int DurationMinutes { get; set; } 
 

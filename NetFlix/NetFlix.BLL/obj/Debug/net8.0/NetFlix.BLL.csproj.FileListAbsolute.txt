@@ -15,3 +15,4 @@ C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.DAL.d
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.CORE.pdb
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\bin\Debug\net8.0\NetFlix.DAL.pdb
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix..46C70BEF.Up2Date
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.BLL\obj\Debug\net8.0\NetFlix.BLL.sourcelink.json

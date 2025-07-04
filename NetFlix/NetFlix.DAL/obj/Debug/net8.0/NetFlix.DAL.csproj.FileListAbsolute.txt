@@ -15,3 +15,4 @@ C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\refint\NetFli
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.pdb
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\ref\NetFlix.DAL.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.DAL\obj\Debug\net8.0\NetFlix.DAL.sourcelink.json

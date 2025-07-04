@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting; // IWebHostEnvironment üçün
+using Microsoft.AspNetCore.Mvc;
 using NetFlix.BLL.Services.Abstracts;
 using NetFlix.CORE.ViewModels;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 namespace NetFlix.Presentation.Areas.Admin.Controllers
 {
     [Area("Admin")] // Admin sahəsi üçün
+    [Authorize(Roles = "Admin")]
     public class ActorsController : Controller
     {
         private readonly IActorService _actorService;

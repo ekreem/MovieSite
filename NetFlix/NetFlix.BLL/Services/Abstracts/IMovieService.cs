@@ -19,5 +19,7 @@ namespace NetFlix.BLL.Services.Abstracts
         void DeleteMovie(int id);
 
         Task SaveAllChangesAsync();
+        Task<List<GetMovieVm>> SearchByTitleAsync(string query);
+
     }
 }

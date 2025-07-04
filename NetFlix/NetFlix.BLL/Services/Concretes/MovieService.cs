@@ -3,6 +3,7 @@ using NetFlix.BLL.Services.Abstracts;
 using NetFlix.CORE.Entities;
 using NetFlix.CORE.ViewModels;
 using NetFlix.DAL.Repositories.Abstracts;
+using NetFlix.DAL.Repositories.Concretes;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -53,6 +54,7 @@ namespace NetFlix.BLL.Services.Concretes
                 ImdbRating = movieVm.ImdbRating,
                 PosterFileName = fileName != null ? "/Upload/" + fileName : string.Empty,
                 TrailerUrl = movieVm.TrailerUrl,
+                TmdbId = movieVm.TmdbId,
                 Quality = movieVm.Quality,
                 Actors = selectedActors
             };
@@ -102,8 +104,10 @@ namespace NetFlix.BLL.Services.Concretes
             movie.ImdbRating = movieVm.ImdbRating;
             movie.PosterFileName = fileName != null ? "/Upload/" + fileName : movie.PosterFileName;
             movie.TrailerUrl = movieVm.TrailerUrl;
+            movie.TmdbId = movieVm.TmdbId;
             movie.Quality = movieVm.Quality;
             movie.Actors = selectedActors;
+            
 
             _repository.UpdateMovie(movie);
             await _repository.SaveAllChangesAsync();
@@ -151,6 +155,7 @@ namespace NetFlix.BLL.Services.Concretes
         {
             return new GetMovieVm
             {
+                Id = movie.Id,
                 Title = movie.Title,
                 Category = movie.Category,
                 Description = movie.Description,
@@ -161,8 +166,44 @@ namespace NetFlix.BLL.Services.Concretes
                 ImdbRating = movie.ImdbRating,
                 PosterFileName = movie.PosterFileName,
                 TrailerUrl = movie.TrailerUrl,
+                TmdbId = movie.TmdbId.Value,
                 Quality = movie.Quality
             };
         }
+        
+        public async Task<List<GetMovieVm>> SearchByTitleAsync(string query)
+        {
+            var movies = await _repository.GetAllWithActorsAsync();
+
+            if (!string.IsNullOrWhiteSpace(query))
+            {
+                movies = movies
+                    .Where(m => m.Title.ToLower().Contains(query.Trim().ToLower()))
+                    .GroupBy(m => m.Id)
+                    .Select(g => g.First())
+                    .ToList();
+            }
+
+            var result = movies.Select(m => new GetMovieVm
+            {
+                Id = m.Id,
+                Title = m.Title,
+                Category = m.Category,
+                Description = m.Description,
+                Director = m.Director,
+                Actors = m.Actors.ToList(), // Əgər Include etmişsənsə
+                Year = m.Year,
+                DurationMinutes = m.DurationMinutes,
+                ImdbRating = m.ImdbRating,
+                PosterFileName = m.PosterFileName, // DB-də imgurl saxlayırsansa
+                TrailerUrl = m.TrailerUrl,
+                TmdbId = m.TmdbId.Value,
+                Quality = m.Quality
+
+            }).ToList();
+
+            return result;
+        }
+
     }
 }

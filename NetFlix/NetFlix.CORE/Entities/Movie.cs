@@ -30,6 +30,7 @@ namespace NetFlix.CORE.Entities
         public string TrailerUrl { get; set; } = string.Empty; // Fragman linki
 
         public string Quality { get; set; } = string.Empty; // 1080p, 4K, vb.
+        public int? TmdbId { get; set; }
 
     }
 }

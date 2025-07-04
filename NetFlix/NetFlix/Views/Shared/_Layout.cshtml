@@ -12,9 +12,13 @@
 	<link rel="stylesheet" href="~/css/photoswipe.css">
 	<link rel="stylesheet" href="~/css/default-skin.css">
 	<link rel="stylesheet" href="~/css/main.css">
+	
+
 
 	<!-- Icon font -->
 	<link rel="stylesheet" href="~/Upload//">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
 
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="~/icon/favicon-32x32.png" sizes="32x32">
@@ -34,54 +38,15 @@
 				<div class="col-12">
 					<div class="header__content">
 						<!-- header logo -->
-						<a href="index.html" class="header__logo">
+						<a asp-controller="Home" asp-action="Index" class="header__logo">
 							<img src="~/img/logo.svg" alt="">
 						</a>
 						<!-- end header logo -->
 						<!-- header nav -->
-						<ul class="header__nav">
+						
+							
 							<!-- dropdown -->
-							<li class="header__nav-item">
-								<a class="header__nav-link" href="index.html#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home <i class="ti ti-chevron-down"></i></a>
-
-								<ul class="dropdown-menu header__dropdown-menu">
-									<li><a href="index.html">Home style 1</a></li>
-									<li><a href="index2.html">Home style 2</a></li>
-									<li><a href="index3.html">Home style 3</a></li>
-								</ul>
-							</li>
-							<!-- end dropdown -->
-							<!-- dropdown -->
-							<li class="header__nav-item">
-								<a class="header__nav-link" href="index.html#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Catalog <i class="ti ti-chevron-down"></i></a>
-
-								<ul class="dropdown-menu header__dropdown-menu">
-									<li><a href="catalog.html">Catalog style 1</a></li>
-									<li><a href="catalog2.html">Catalog style 2</a></li>
-									<li><a href="details.html">Details Movie</a></li>
-									<li><a href="details2.html">Details TV Series</a></li>
-								</ul>
-							</li>
-							<!-- end dropdown -->
-
-							<li class="header__nav-item">
-								<a href="pricing.html" class="header__nav-link">Pricing plan</a>
-							</li>
-
-							<!-- dropdown -->
-							<li class="header__nav-item">
-								<a class="header__nav-link" href="index.html#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages <i class="ti ti-chevron-down"></i></a>
-
-								<ul class="dropdown-menu header__dropdown-menu">
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="profile.html">Profile</a></li>
-									<li><a href="actor.html">Actor</a></li>
-									<li><a href="contacts.html">Contacts</a></li>
-									<li><a href="faq.html">Help center</a></li>
-									<li><a href="privacy.html">Privacy policy</a></li>
-									<li><a href="../admin/index.html" target="_blank">Admin pages</a></li>
-								</ul>
-							</li>
+							
 							<!-- end dropdown -->
 							<!-- dropdown -->
 							<li class="header__nav-item">
@@ -99,8 +64,8 @@
 						<!-- end header nav -->
 						<!-- header auth -->
 						<div class="header__auth">
-							<form action="index.html#" class="header__search">
-								<input class="header__search-input" type="text" placeholder="Search...">
+							<form asp-controller="Home"  asp-action="Search" method="get" class="header__search">
+								<input class="header__search-input" name="query" type="text" placeholder="Search...">
 								<button class="header__search-button" type="button">
 									<i class="ti ti-search"></i>
 								</button>
@@ -108,46 +73,42 @@
 									<i class="ti ti-x"></i>
 								</button>
 							</form>
-
-							<button class="header__search-btn" type="button">
-								<i class="ti ti-search"></i>
-							</button>
-
-							<!-- dropdown -->
-							<div class="header__lang">
-								<a class="header__nav-link" href="index.html#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN <i class="ti ti-chevron-down"></i></a>
-
-								<ul class="dropdown-menu header__dropdown-menu">
-									<li><a href="index.html#">English</a></li>
-									<li><a href="index.html#">Spanish</a></li>
-									<li><a href="index.html#">French</a></li>
-								</ul>
-							</div>
-							<!-- end dropdown -->
 							<!-- dropdown -->
 							<div class="header__profile">
-								<a class="header__sign-in header__sign-in--user" href="index.html#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									<i class="ti ti-user"></i>
-									<span>Nickname</span>
-								</a>
+								@if (User.Identity != null && User.Identity.IsAuthenticated)
+								{
+									<!-- Giriş etmiş istifadəçi -->
+									<div class="dropdown">
+										<a class="header__sign-in header__sign-in--user dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+											<i class="ti ti-user"></i>
+											<span>@User.Identity.Name</span>
+										</a>
+										<ul class="dropdown-menu dropdown-menu-end header__dropdown-menu header__dropdown-menu--user">
+											<li><a asp-action="Profile" asp-controller="Account"><i class="ti ti-ghost"></i> Profile</a></li>
+											@if (User.IsInRole("Admin"))
+											{
+											<li><a   asp-area="Admin" asp-action="Index"  asp-controller="Dashboard"><i class="ti ti-logout"></i> Admin Panel </a></li>
+												
+											}
+											<li><a asp-action="Logout" asp-controller="Account"><i class="ti ti-logout"></i> Logout</a></li>
 
-								<ul class="dropdown-menu dropdown-menu-end header__dropdown-menu header__dropdown-menu--user">
-									<li><a href="profile.html"><i class="ti ti-ghost"></i>Profile</a></li>
-									<li><a href="profile.html"><i class="ti ti-stereo-glasses"></i>Subscription</a></li>
-									<li><a href="profile.html"><i class="ti ti-bookmark"></i>Favorites</a></li>
-									<li><a href="profile.html"><i class="ti ti-settings"></i>Settings</a></li>
-									<li><a href="index.html#"><i class="ti ti-logout"></i>Logout</a></li>
-								</ul>
+										</ul>
+									</div>
+								}
+								else
+								{
+									<!-- Giriş etməmiş istifadəçi -->
+									<div style="display: flex; gap: 10px; align-items: center;">
+										<a asp-action="Login" asp-controller="Account" class="header__sign-in"><i class="fa fa-lock"></i> Login</a>
+										<a asp-action="Register" asp-controller="Account" class="header__sign-in"><i class="fa fa-lock"></i> Register</a>
+									</div>
+								}
 							</div>
+
 							<!-- end dropdown -->
 						</div>
 						<!-- end header auth -->
-						<!-- header menu btn -->
-						<button class="header__btn" type="button">
-							<span></span>
-							<span></span>
-							<span></span>
-						</button>
+						
 						<!-- end header menu btn -->
 					</div>
 				</div>

@@ -1,0 +1,55 @@
+﻿@using NetFlix.CORE.ViewModels
+@model GetMovieVm
+
+<section class="movie-details" style="color: white; padding: 40px; background-color: #121212; min-height: 80vh;">
+    <div class="container" style="display: flex; gap: 30px; flex-wrap: wrap;">
+
+        <!-- Poster və Trailer -->
+        <div class="movie-poster" style="flex: 1 1 300px; max-width: 350px;">
+            <img src="@Model.PosterFileName" alt="@Model.Title" style="width: 100%; border-radius: 15px; box-shadow: 0 0 15px #000;">
+           
+            
+        </div>
+
+        <!-- Film Haqqında Məlumatlar -->   
+        <div class="movie-info" style="flex: 2 1 500px;">
+
+            <p style="color:white; font-size:2em; margin-top: 40px;">@Model.Title</p>
+
+            <div style="margin-bottom: 15px; font-size: 0.9rem; color: #999;">
+                <span><strong>Category:</strong> @Model.Category</span> |
+                <span><strong>Release Year:</strong> @Model.Year</span> |
+                <span><strong>Duration:</strong> @Model.DurationMinutes dəq.</span> |
+                <span><strong>Quality:</strong> @Model.Quality</span> |
+                <span><strong>IMDb:</strong> @Model.ImdbRating</span>
+            </div>
+
+            <p style="line-height: 1.6; margin-bottom: 20px;">
+                @Model.Description
+            </p>
+
+            <p><strong>Director:</strong> @Model.Director</p>
+            @if (!string.IsNullOrEmpty(Model.TrailerUrl))
+            {
+                <div style="margin-top: 20px;">
+                    <h3>Watch Movie</h3>
+                    <!-- Favorite Toggle Düyməsi -->
+                    <form asp-controller="Account" asp-action="ToggleFavorite" method="post" style="margin-top: 10px;">
+                        <input type="hidden" name="movieId" value="@Model.Id" />
+                        <button class="item__favorite" type="submit" title="Favorit əlavə/silmə"
+                                style="background: transparent; border: none; color: white; cursor: pointer; font-size: 24px;">
+                            <i class="ti ti-bookmark"></i>
+                        </button>
+                    </form>
+                    <iframe width="100%" height="300"
+                            src="https://vidsrc.to/embed/movie/@Model.TmdbId"
+                            title="Trailer of @Model.Title"
+                            frameborder="0" allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            }
+            
+        </div>
+
+    </div>
+</section>

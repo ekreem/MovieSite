@@ -10,3 +10,4 @@ C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.CORE\obj\Debug\net8.0\NetFlix.CORE
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.CORE\obj\Debug\net8.0\refint\NetFlix.CORE.dll
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.CORE\obj\Debug\net8.0\NetFlix.CORE.pdb
 C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.CORE\obj\Debug\net8.0\ref\NetFlix.CORE.dll
+C:\Users\ASUS\Desktop\project\NetFlix\NetFlix.CORE\obj\Debug\net8.0\NetFlix.CORE.sourcelink.json

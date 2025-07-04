@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetFlix.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d49e90bcf5239314eadf41280fed67e77f62001")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7988b105721345e2329a5bdfd395bc378ec7ce98")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetFlix.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetFlix.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

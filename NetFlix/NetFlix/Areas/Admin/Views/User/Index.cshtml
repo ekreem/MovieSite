@@ -1,0 +1,42 @@
+﻿@model List<NetFlix.CORE.Entities.AppUser>
+<main class="main">
+    <!-- ================== İstifadəçilər Bölməsi ================== -->
+    <div class="row">
+        <div class="col-12">
+            <div class="dashbox">
+                <div class="dashbox__title">
+                    <h3><i class="ti ti-user"></i> Users</h3>
+                    
+                </div>
+
+                <div class="dashbox__table-wrap">
+                    <table class="dashbox__table">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Email</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model)
+                            {
+                                <tr>
+                                    <td><div class="dashbox__table-text">@user.UserName</div></td>
+                                    <td><div class="dashbox__table-text">@user.Email</div></td>
+                                    <td>
+                                        <form asp-action="Delete" asp-controller="User" method="post" onsubmit="return confirm('İstifadəçi silinsin?')" style="display:inline;">
+                                            <input type="hidden" name="id" value="@user.Id" />
+                                            <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

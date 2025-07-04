@@ -15,6 +15,6 @@ namespace NetFlix.CORE.ViewModels
         public string BirthPlace { get; set; } = string.Empty;
         public IFormFile PhotoFile { get; set; } // Yeni şəkil üçün (opsional)
         public string PhotoFileName { get; set; } = string.Empty; // Mövcud şəkil
-        public List<int> MovieIds { get; set; } = new List<int>(); // Seçilmiş filmlər
+        public List<int>? MovieIds { get; set; } = new List<int>(); // Seçilmiş filmlər
     }
 }
